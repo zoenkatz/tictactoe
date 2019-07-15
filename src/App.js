@@ -32,7 +32,10 @@ class App extends Component {
         this.setState({
           winner: this.state.player
         });
-        alert("You won");
+        setTimeout(() =>{
+          alert("You won");
+        }, 0)
+
       }
     }
   }
